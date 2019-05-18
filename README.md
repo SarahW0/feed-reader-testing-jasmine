@@ -5,7 +5,7 @@ The 4th Project created as part of the Udacity Front-End Developer Nanodegree.
 The web-based application that reads RSS feeds is downloadable from this course. The goal of this project is to write a number of tests against the pre-existing application by using Jasmine Testing Framework.
 
 # Run the Application
-The live version of the application can be found here.
+The live version of the application can be found [here](https://ecommsupports.com/demo/FeedReaderTesting/).
 
 OR
 
@@ -16,17 +16,17 @@ Run the app on your local machine
 4. The testing result page will be open in the browser
 
 # Test Suites
-4 test suites and totally 7 tests are created for this project
+Four test suites and totally seven tests are created for this project
 
 **1. New Feed Selection[Test Suite]**
 
-     To test Content changes when a new feed is loaded
+     To test content changes when a new feed is loaded
      
 **2. RSS Feeds[Test Suite]**
 
      To test each feed has a name defined and not empty     
      To test each feed has a URL defined and not empty     
-     To test allFeeds is defined and not empty
+     To test allFeeds variable is defined and not empty
      
 **3. The menu[Test Suite]**
 
@@ -37,7 +37,14 @@ Run the app on your local machine
 
      To test at least one entry element in the feed container
 
+# Development Depandencies
+
+   jasmine-jquery
    
+   ESLint
+   
+# Browser Version
+  This project is tested in Google Chrome Version 74
    
    
 
