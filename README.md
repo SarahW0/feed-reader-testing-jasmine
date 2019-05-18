@@ -20,22 +20,22 @@ Four test suites and totally seven tests are created for this project
 
 **1. New Feed Selection[Test Suite]**
 
-     To test content changes when a new feed is loaded
+     Test: Content changes when a new feed is loaded
      
 **2. RSS Feeds[Test Suite]**
 
-     To test each feed has a name defined and not empty     
-     To test each feed has a URL defined and not empty     
-     To test allFeeds variable is defined and not empty
+     Test: Each feed has a name defined and not empty     
+     Test: Each feed has a URL defined and not empty     
+     Test: allFeeds variable is defined and not empty
      
 **3. The menu[Test Suite]**
 
-     To test menu is hidden by default
-     To test menu visibility changes when the menu icon is clicked
+     Test: Menu is hidden by default
+     Test: Menu visibility changes when the menu icon is clicked
      
 **4. Initial Entries[Test Suite]**
 
-     To test at least one entry element in the feed container
+     Test: At least one entry element in the feed container
 
 # Development Depandencies
 
