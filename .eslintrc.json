@@ -1,0 +1,25 @@
+{
+  "plugins": ["jasmine-jquery"],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jquery": true,
+    "jasmine": true
+  },
+  "extends": ["eslint:recommended", "plugin:jasmine-jquery/recommended"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "allFeeds": "writable",
+    "Handlebars": true,
+    "loadFeed": true,
+    "spyOnEvent": true,
+    "google": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "no-unused-vars": "off"
+  }
+}
